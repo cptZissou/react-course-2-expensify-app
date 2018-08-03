@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\shoosh\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add numeral@2.0.6
+  C:\Program Files\nodejs\node.exe C:\Users\shoosh\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add firebase@4.2.0
 
 PATH: 
   C:\cmder\bin;C:\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\cmder\vendor\conemu-maximus5;C:\cmder\vendor\conemu-maximus5\ConEmu;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\OpenVPN\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Console2;C:\Program Files (x86)\Intel\Platform Flash Tool Lite;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Oracle\VirtualBox;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\Sublime Text 3\linters;C:\php;C:\Users\shoosh\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\cmder\
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: EPERM: operation not permitted, unlink 'c:\My Web Sites\react-course-projects\expensify-app\node_modules\acorn-dynamic-import\node_modules\.bin'
+  Error: EPERM: operation not permitted, unlink 'c:\My Web Sites\react-course-projects\expensify-app\node_modules\acorn-globals\node_modules\.bin'
 
 npm manifest: 
   {
@@ -45,6 +45,7 @@ npm manifest:
       "moment": "2.18.1",
       "node-sass": "^4.9.0",
       "normalize.css": "7.0.0",
+      "numeral": "2.0.6",
       "raf": "3.3.2",
       "react": "16.0.0",
       "react-addons-shallow-compare": "15.6.0",
@@ -69,9 +70,9 @@ npm manifest:
       "eslint-plugin-standard": "^3.1.0",
       "jest": "20.0.4",
       "react-test-renderer": "16.0.0",
+      "rimraf": "^2.6.2",
       "sass-loader": "^7.0.1",
-      "webpack-dev-server": "2.5.1",
-      "rimraf": "^2.6.2"
+      "webpack-dev-server": "2.5.1"
     }
   }
 
@@ -4469,6 +4470,10 @@ Lockfile:
   number-is-nan@^1.0.0:
     version "1.0.1"
     resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
+  
+  numeral@2.0.6:
+    version "2.0.6"
+    resolved "https://registry.yarnpkg.com/numeral/-/numeral-2.0.6.tgz#4ad080936d443c2561aed9f2197efffe25f4e506"
   
   "nwmatcher@>= 1.3.9 < 2.0.0":
     version "1.4.4"
