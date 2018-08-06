@@ -1,0 +1,37 @@
+.modal {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  right: 35%;
+  bottom: 35%;
+  background-color: $light-grey;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: fade-out($dark-grey, .15);
+}
+
+.modal__box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.modal__message {
+  font-size: $font-size-large;
+  color: $dark-grey;
+  font-weight: 300;
+  margin-bottom: $xl-size;
+  span {
+    font-weight: 700;
+  }
+}

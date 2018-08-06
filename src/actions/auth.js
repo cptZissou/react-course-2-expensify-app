@@ -1,13 +1,18 @@
-import { firebase, googleAuthProvider } from '../firebase/firebase';
+import { firebase, googleAuthProvider, githubAuthProvider } from '../firebase/firebase';
 
 export const login = (uid) => ({
   type: 'LOGIN',
   uid
 });
 
-export const startLogin = () => {
+export const startLogin = (e) => {
+  const provider = e.target.value;
   return () => {
-    return firebase.auth().signInWithPopup(googleAuthProvider);
+    if (provider === 'google') {
+      return firebase.auth().signInWithPopup(googleAuthProvider);      
+    } else if (provider === 'github') {
+      return firebase.auth().signInWithPopup(githubAuthProvider);            
+    }
   };
 };
 

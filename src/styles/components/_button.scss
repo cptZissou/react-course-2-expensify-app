@@ -17,3 +17,20 @@
 .button--secondary {
   background: #888;
 }
+
+.button--modalConfirm {
+  background: green;
+  width: 14rem;
+  margin-bottom: $s-size;
+  @media (max-width: $desktop-breakpoint) {
+    width: 100%;
+  }
+}
+
+.button--modalCancel {
+  background: #888;
+  width: 12rem;
+  @media (max-width: $desktop-breakpoint) {
+    width: 100%;
+  }
+}
